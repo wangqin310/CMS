@@ -1,0 +1,135 @@
+html,body{
+  .w(100%);
+  .h(100%);
+  .p(0);
+  .m(0);
+  list-style:none;
+  .b-s(border-box);
+}
+li,ul{
+  .p(0);
+  .m(0);
+  list-style:none;
+  .b-s(border-box);
+}
+p,section,nav,header,footer,h2,h3,h4,h5,h6,input{
+  .m(0);
+  .p(0);
+}
+a{
+  text-decoration:none;
+}
+*{
+  box-sizing:border-box;
+}
+/*ie中有默认的边框*/
+img{
+  border:none;
+  vertical-align: middle;
+}
+button{
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+@topNav:#3c436c;
+@bottomNav:#2a2d41;
+@white:#fff;
+@activeNavColor:#2a2c43;
+@navTextColor:rgba(255,255,255,0.5);
+@navTextFont:'微软雅黑';
+@workPlatformText:'MicrosoftYaHei';
+@workPlatformColor:#9ea5c7;
+@headerBg:#2c2f3c;
+@contentBodyBg:#2f3445;
+@gray:#434759;
+@red:#ef6055;
+@progressBarStart:#35384e;
+@progressBarEnd:#f75a4c;
+@boxBg:#43475b;
+@textColor:#9EA5C7;
+@orange:#FFAC1B;
+@calendarHeadBg:#fdc895;
+@line:#687094;
+@green:#009688;
+@grayBorder:#d3d4d6;
+@border:#7ba3ff;
+@messageBoxBg:#43475B;
+@tableButton:#4a88fa;
+
+
+.w(@px){
+  width:@px;
+}
+.h(@px){
+  height:@px;
+}
+.p(@px){
+  padding:@px;
+}
+.p-l(@px){
+  padding-left:@px;
+}
+.p-r(@px){
+  padding-right:@px;
+}
+.p-t(@px){
+  padding-top:@px;
+}
+.p-b(@px){
+  padding-bottom:@px;
+}
+.m(@px){
+  margin:@px;
+}
+.m-l(@px){
+  margin-left:@px;
+}
+.m-r(@px){
+  margin-right:@px;
+}
+.m-t(@px){
+  margin-top:@px;
+}
+.m-b(@px){
+  margin-right:@px;
+}
+.b(@px){
+  background:@px;
+}
+.l-h(@px){
+  line-height:@px;
+}
+.t-a(@px){
+  text-align:@px;
+}
+.d-i(@px){
+  display:@px;
+}
+.b-s(@px){
+  box-sizing:@px;
+}
+.b-sh(@px){
+  box-shadow:@px;
+}
+.f-s(@px){
+  font-size:@px;
+}
+.f-f(@px){
+  font-family:@px;
+}
+.b-s(@px){
+  box-sizing:border-box;
+}
+.b-r(@px){
+  border-radius:@px;
+}
+
+.el-table th,
+.el-table tr,
+.el-table--striped .el-table__body tr.el-table__row--striped td,
+.el-table--enable-row-hover .el-table__body tr:hover>td,
+.el-table__body tr.current-row>td{
+  .b(#2a2d41);
+  color: #fff;
+}
